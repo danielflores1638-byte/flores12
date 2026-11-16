@@ -1,0 +1,25 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0%;
+    text-align: center;
+}
+header{
+    background: #ee0000;
+    color: white;
+    padding: 20px;
+}
+.Contenedor{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.caja{
+    flex: 1;
+    padding: 40px;
+    background: rgba(67, 0, 252, 0.911);
+}
+@media(max-Width:600px){
+    .Contenedor{
+        flex-direction: column;
+    }
+}
